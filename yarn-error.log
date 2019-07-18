@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/jekyll/bin:/usr/local/rvm/gems/ruby-2.6.1/bin:/usr/local/rvm/gems/ruby-2.6.1@global/bin:/usr/local/rvm/rubies/ruby-2.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz: unexpected end of file
+      at Gunzip.zlibOnError (zlib.js:153:15)
+
+npm manifest: 
+  {
+    "name": "jquery-selectors-readme",
+    "version": "0.1.0",
+    "description": "Practice with jQuery Selectors",
+    "main": "js/selectors.js",
+    "scripts": {
+      "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/learn-co-curriculum/jquery-selectors-readme.git"
+    },
+    "keywords": [
+      "javascript",
+      "jquery",
+      "learn",
+      "flatiron"
+    ],
+    "author": "Learn.co",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/learn-co-curriculum/jquery-selectors-readme/issues"
+    },
+    "homepage": "https://github.com/learn-co-curriculum/jquery-selectors-readme#readme",
+    "devDependencies": {
+      "expect": "^1.20.1",
+      "jquery": "^3.0.0",
+      "jsdom": "^9.2.0",
+      "mocha": "^2.5.3",
+      "mocha-jsdom": "~1.1.0",
+      "mocha-multi": "^0.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
